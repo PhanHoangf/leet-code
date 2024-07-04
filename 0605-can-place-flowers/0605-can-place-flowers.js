@@ -43,6 +43,7 @@ var canPlaceFlowers = function (flowerbed, n) {
         if (prev === 0 && aft === 0 && flowerbed[i] === 0) {
             n -= 1;
             flowerbed[i] = 1;
+            if (n === 0) break;
         }
     }
 
