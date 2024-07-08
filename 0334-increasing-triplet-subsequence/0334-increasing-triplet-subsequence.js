@@ -4,29 +4,17 @@
  */
 var increasingTriplet = function (nums) {
     const maxInt = Number.MAX_SAFE_INTEGER
-    let a = {
-        num: maxInt,
-        index: null
-    };
-    let b = {
-        num: maxInt,
-        index: null
-    };
+    a = maxInt;
+    b = maxInt;
     for (let i = 0; i <= nums.length - 1; i++) {
         num = nums[i];
-        if (num <= a.num) {
-            a = {
-                num,
-                index: i
-            };
-        } else if (num <= b.num) {
-            b = {
-                num,
-                index: i
-            };
+        if (num <= a) {
+            a = num
+        } else if (num <= b) {
+            b = num
         } else {
-            if (a.num == b.num) return false;
-            if (b.num == maxInt || a.num == maxInt) return false;
+            if (a == b) return false;
+            if (b == maxInt || a == maxInt) return false;
             return true;
         }
     }
