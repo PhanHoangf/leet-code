@@ -3,8 +3,6 @@
  * @return {boolean}
  */
 var increasingTriplet = function (nums) {
-    const set = new Set(nums);
-
     const maxInt = Number.MAX_SAFE_INTEGER
     a = maxInt;
     b = maxInt;
