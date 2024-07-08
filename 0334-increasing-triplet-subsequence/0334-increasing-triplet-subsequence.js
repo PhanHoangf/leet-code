@@ -4,7 +4,6 @@
  */
 var increasingTriplet = function (nums) {
     const set = new Set(nums);
-    if(set.size == 1) return false;
 
     const maxInt = Number.MAX_SAFE_INTEGER
     a = maxInt;
