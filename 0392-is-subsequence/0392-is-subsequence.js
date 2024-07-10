@@ -10,11 +10,8 @@ var isSubsequence = function(s, t) {
     let res = '';
     
     while (j <= t.length - 1 && i <= s.length -1) {
-        charT = t[j];
-        charS = s[i];
-        
-        if (charT === charS) {
-            res += charT;
+        if (t[j] === s[i]) {
+            res += t[j];
             j++;
             i++;
         } else {
