@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/PhanHoangf/leet-code/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/PhanHoangf/leet-code/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/PhanHoangf/leet-code/tree/master/0443-string-compression) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PhanHoangf/leet-code/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1894-merge-strings-alternately](https://github.com/PhanHoangf/leet-code/tree/master/1894-merge-strings-alternately) |
 ## Array
 |  |
@@ -42,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/PhanHoangf/leet-code/tree/master/0392-is-subsequence) |
+## Stack
+|  |
+| ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PhanHoangf/leet-code/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
