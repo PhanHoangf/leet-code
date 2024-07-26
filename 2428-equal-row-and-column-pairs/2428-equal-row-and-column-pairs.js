@@ -29,5 +29,4 @@ var equalPairs = function (grid) {
     }
     
     return totalPair
-    return Object.values(rowMap).reduce((a, b) => a + b, 0);
 };
