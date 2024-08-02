@@ -4,7 +4,7 @@
  */
 var predictPartyVictory = function (senate) {
     senate = senate.split('');
-
+    
     while (senate.length !== 1) {
         let teamName = senate.shift();
 
