@@ -13,14 +13,14 @@ var oddEvenList = function (head) {
     if (head == null) return null;
     if (head.next == null) return head;
     let p = head;
-    let test = new ListNode(head.next.val);
-    let r = test;
+    let oddLinkedList = new ListNode(head.next.val);
+    let r = oddLinkedList;
     while (p.next != null && p.next.next != null) {
         p.next = p.next.next;
         p = p.next;
         r.next = p.next;
         r = r.next;
     }
-    p.next = test;
+    p.next = oddLinkedList;
     return head;
 };
