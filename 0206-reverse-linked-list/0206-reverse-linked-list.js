@@ -10,23 +10,7 @@
  * @return {ListNode}
  */
 var reverseList = function (head) {
-    let arr = [];
-    let p = head;
-    if (head === null) return null;
-
-    while (p != null) {
-        arr.unshift(p.val);
-        p = p.next;
-    }
-
-    let reverseLinkedList = new ListNode(arr[0]);
-    let q = reverseLinkedList;
-
-
-    for (let i = 1; i < arr.length; i++) {
-        q.next = new ListNode(arr[i]);
-        q = q.next;
-    }
-
-    return reverseLinkedList;
+    let prev = null;
+    while (head) [head.next, prev, head] = [prev, head, head.next]
+    return prev
 };
